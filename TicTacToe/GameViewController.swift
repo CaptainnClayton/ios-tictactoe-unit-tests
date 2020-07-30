@@ -7,6 +7,12 @@
 //
 
 import UIKit
+// Access Controls
+// open - (only applicable for classes) any target can access and subclass
+// public - any target can access var/func/constant/class/struct
+// internal - default setting anyone in the same target can access
+// filePrivate - only access it if the code is in the same file
+// private - only the class can access the var/func/constant
 
 class GameViewController: UIViewController, BoardViewControllerDelegate {
     
